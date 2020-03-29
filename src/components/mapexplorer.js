@@ -15,7 +15,7 @@ const mapMeta = {
     name: 'Andaman and Nicobar Islands',
     geoDataFile: `${MAPS_DIR}/andamannicobarislands.json`,
     mapType: MAP_TYPES.STATE,
-    graphObjectName: 'andamannicobarislands_district',
+    graphObjectName: 'andamannicobarislands',
   },
   'Arunachal Pradesh': {
     name: 'Arunachal Pradesh',
@@ -40,7 +40,7 @@ const mapMeta = {
     name: 'Bihar',
     geoDataFile: `${MAPS_DIR}/bihar.json`,
     mapType: MAP_TYPES.STATE,
-    graphObjectName: 'bihar_district',
+    graphObjectName: 'bihar',
   },
   Chhattisgarh: {
     name: 'Chhattisgarh',
@@ -94,7 +94,7 @@ const mapMeta = {
     name: 'Jammu and Kashmir',
     geoDataFile: `${MAPS_DIR}/jammukashmir.json`,
     mapType: MAP_TYPES.STATE,
-    graphObjectName: 'jammukashmir_district',
+    graphObjectName: 'jammukashmir',
   },
   Jharkhand: {
     name: 'Jharkhand',
@@ -172,7 +172,7 @@ const mapMeta = {
     name: 'Tamil Nadu',
     geoDataFile: `${MAPS_DIR}/tamil-nadu.json`,
     mapType: MAP_TYPES.STATE,
-    graphObjectName: 'tamilnadu_district',
+    graphObjectName: 'tamil-nadu_district',
   },
   Telangana: {
     name: 'Telangana',
