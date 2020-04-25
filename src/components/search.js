@@ -7,6 +7,7 @@ import {
 import Bloodhound from 'corejs-typeahead';
 import React, {useState, useCallback, useRef} from 'react';
 import * as Icon from 'react-feather';
+import {useTranslation} from 'react-i18next';
 import {Link} from 'react-router-dom';
 
 const engine = new Bloodhound({
@@ -46,6 +47,8 @@ const essentialsEngine = new Bloodhound({
 });
 
 function Search(props) {
+  const {t} = useTranslation();
+
   const [searchValue, setSearchValue] = useState('');
   const [expand, setExpand] = useState(false);
   const [results, setResults] = useState([]);
@@ -123,7 +126,7 @@ function Search(props) {
 
   return (
     <div className="Search">
-      <label>Search your city, resources, etc</label>
+      <label>{t('Search your city, resources, etc')}</label>
       <div className="line"></div>
 
       <input

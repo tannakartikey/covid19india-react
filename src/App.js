@@ -8,6 +8,7 @@ import PatientDB from './components/patientdb';
 import Resources from './components/resources';
 import State from './components/state';
 import ScrollToTop from './utils/ScrollToTop';
+import './i18n';
 
 import React from 'react';
 import {
